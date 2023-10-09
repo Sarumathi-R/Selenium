@@ -8,10 +8,10 @@ const sample = async () => {
     await driver.get("https://www.facebook.com");
     await driver
       .findElement(By.xpath("//input[@name='email']"))
-      .sendKeys("akashrive659@gmail.com");
+      .sendKeys("admin@123@gmail.com");
     await driver
       .findElement(By.xpath("//input[@name='pass']"))
-      .sendKeys("Akash@2003");
+      .sendKeys("admin");
     await driver.findElement(By.xpath("//button[@type='submit']")).click();
     await driver.sleep(1000);
 
